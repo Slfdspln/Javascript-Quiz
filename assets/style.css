@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#start-container {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	width: 50%;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button {
+	margin-top: 10px;
+}
+
+#result {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#timer {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}

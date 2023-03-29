@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Quiz!</title>
+	<link rel="stylesheet" type="text/css" href="./Assets/style.css">
+</head>
+<body>
+	<h1>JavaScript Quiz</h1>
+	<div id="start-container">
+		<button type="button" id="start" onclick="startQuiz()">Start Quiz</button>
+	</div>
+	<div id="quiz-form" style="display:none">
+		<p id="question-text">What is the capital of France?</p>
+		<button id="btn1">a. 1</button>
+        <button id="btn2">b. 2</button>
+        <button id="btn3">c. 3</button>
+        <button id="btn4">d. 4</button>
+		<p id="timer">30 seconds remaining</p>
+	</div>
+	<div id="scoring-screen" style="display:none">
+        <p id="finalscore">High Score</p>
+        <input id="initials" type="text" placeholder="Enter Initials">
+        <button type="button" id="submit">Submit</button>
+		<p id="timerfinished">Time is up!</p>
+	</div>
+    <div id="highscore-screen" style="display:none">
+		<ul id="highscore-list"></ul>
+		<button type="button" id="clear" onclick="clearHighScores()">Clear High Scores</button>
+		<button type="button" id="restart" onclick="resetQuiz()">Restart Quiz</button>
+	</div>
+
+	<script src="./Assets/script.js"></script>
+</body>
+</html>
