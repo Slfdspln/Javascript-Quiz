@@ -1,4 +1,4 @@
-# Title of Project: Javascript Quiz
+# Javascript Quiz
 I built a timed coding quiz with multiple-choice questions. 
 This app will run in the browser and feature dynamically updated HTML and CSS powered by my JavaScript code. In addition, it will have a clean, polished, and responsive user interface.
 
